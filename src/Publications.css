@@ -1,0 +1,28 @@
+.PublicationsPublicas {
+    width: 100%; /* Utiliza todo el ancho de la página */
+    padding: 20px;
+    overflow-y: auto; /* Agrega desplazamiento vertical si es necesario */
+    max-height: 400px; /* Altura máxima para que sea desplazable */
+    margin-bottom: 10px;
+  }
+  
+  .PublicationsPublicas h2 {
+    margin-bottom: 20px;
+  }
+  
+  .PublicationsPublicas > div {
+    background-color: #f9f9f9; /* Fondo para destacar los elementos */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .PublicationsPublicas h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .PublicationsPublicas p {
+    margin: 5px 0;
+  }
+  

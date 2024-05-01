@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Hace el header fijo */
+    top: 0;          /* Alinea el header en la parte superior */
+    width: 100%;     /* Asegura que el header se extienda a lo ancho de la página */
+    z-index: 1000;   /* Asegura que el header se mantenga sobre otros elementos */
+  }
+  
+  .Header h1, .Header p {
+    margin: 0;
+  }
+  

@@ -1,5 +1,59 @@
 .App {
-  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.logo {
+  width: 100px; /* Ancho deseado en píxeles */
+  height: auto; /* Altura ajustada automáticamente */
+  border-radius: 50%;
+}
+.App {
+  display: grid;
+  gap: 20px;
+}
+
+.tab-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas */
+  gap: 20px;
+}
+
+.EventosIntranet,
+.PublicacionesIntranet {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.EventosIntranet h2,
+.PublicacionesIntranet h2 {
+  margin-top: 0;
+}
+
+.EventosIntranet ul,
+.PublicacionesIntranet ul {
+  list-style: none;
+  padding: 0;
+}
+
+.EventosIntranet li,
+.PublicacionesIntranet li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.EventosIntranet li:last-child,
+.PublicacionesIntranet li:last-child {
+  border-bottom: none;
+}
+
+.non-user-section {
+  margin-top: 60px;
+}
+
+.EventCalendar {
+  margin-top: 60px;
 }
 
 .App-logo {
@@ -22,6 +76,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.non-user-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Dos columnas, dos tercios para eventos y un tercio para calendario */
+  grid-gap: 20px; /* Espacio entre las columnas */
+}
+
+.non-user-section > div {
+  background-color: #f9f9f9; /* Fondo para destacar los elementos */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.event-list-container {
+  height: 100%; /* Asegura que ocupe todo el espacio disponible */
+  overflow-y: auto; /* Añade desplazamiento vertical si es necesario */
+}
+
+.event-calendar-container {
+  height: 100%; /* Asegura que ocupe todo el espacio disponible */
 }
 
 .App-link {

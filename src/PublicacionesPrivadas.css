@@ -1,0 +1,43 @@
+/* Estilo para el contenedor principal de tu página */
+
+  /* Estilo para la columna izquierda que contiene los primeros 3 div */
+  .left-column {
+    flex: 0 0 50%; /* Utiliza el 50% del ancho y no crece ni se encoge */
+    /* Agrega otros estilos necesarios para esta columna */
+  }
+  
+  /* Estilo para la columna derecha que contiene PublicacionesIntranet */
+  .right-column {
+    flex-grow: 1; /* Utiliza el espacio restante */
+    max-height: 100%; /* Altura máxima para que sea desplazable */
+    overflow-y: auto; /* Añade una barra de desplazamiento vertical si es necesario */
+  }
+  
+  /* Estilos para PublicacionesIntranet */
+  .PublicacionesIntranet {
+    padding: 20px;
+  }
+  
+  .PublicacionesIntranet ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .PublicacionesIntranet li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .PublicacionesIntranet h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .PublicacionesIntranet p {
+    margin: 5px 0;
+  }
+  

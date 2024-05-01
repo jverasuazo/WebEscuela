@@ -1,0 +1,17 @@
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8; /* Color de fondo del footer */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .Footer p {
+    margin: 0;
+  }
+  
