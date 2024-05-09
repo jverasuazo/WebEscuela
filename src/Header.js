@@ -22,7 +22,7 @@ function Header({ isLoggedIn, handleLogin,handleLogout  }) {
     <div className="Header">
       {/* Agrega la imagen del logo */}
       <img src={LogoEscuela} alt="Logo de la Escuela" className="logo" />
-      <h1>Escuela Rural Conectados</h1>
+      <h1>Escuela Conectada</h1>
       {isLoggedIn ? (
         <div>
           <p>Bienvenido, {username}!</p>
