@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import './EventCalendar.css';
+
 
 function EventCalendar({ onDateChange }) {
   const [date, setDate] = useState(new Date());

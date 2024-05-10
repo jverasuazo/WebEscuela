@@ -1,6 +1,14 @@
 .App {
   margin-top: 100px;
   margin-bottom: 60px;
+  background-image: url('./fondo.jpg'); /* Ruta relativa a la imagen */
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  margin-top: 100px;
+  margin-bottom: 60px;
 }
 .logo {
   width: 100px; /* Ancho deseado en píxeles */
@@ -111,3 +119,5 @@
     transform: rotate(360deg);
   }
 }
+
+
