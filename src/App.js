@@ -21,7 +21,6 @@ function App() {
   const handleLogout = () => {
     setIsLoggedIn(false);
     setUser(null);
-    // Puedes agregar cualquier otra lógica necesaria al cerrar sesión, como limpiar el estado de eventos, publicaciones, etc.
   };
 
   const handleDateChange = async (date) => {
@@ -34,7 +33,6 @@ function App() {
       setEvents(response.data);
     } catch (error) {
       console.error('Error fetching events:', error);
-      // Handle errors gracefully, e.g., display an error message to the user
     }
   };
 

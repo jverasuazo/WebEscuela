@@ -7,7 +7,6 @@ function Header({ isLoggedIn, handleLogin,handleLogout  }) {
   const [password, setPassword] = useState('');
 
   const handleLogoutClick = () => {
-    // Aquí puedes agregar la lógica para cerrar sesión
     handleLogout();
     setUsername('');
     setPassword('');

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg'; // Asegúrate de tener un archivo logo.svg en src/
+import logo from './logo.svg';
 
 function LogoSection() {
   return (
